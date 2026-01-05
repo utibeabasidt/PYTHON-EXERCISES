@@ -10,6 +10,8 @@ print(number[-4:-1]) # 678
 print(number[-8:]) # 23456789
 print(number[-8::2]) # 2468
 
+# Note: Why start with -1 in counting from the back is because of the number line, and 0 is neither a positive nor a negative number
+
 name = 'Utibe'
 # OTHER STRING FUNCTIONS
 print(name.upper()) # UTIBE
