@@ -12,3 +12,11 @@ for number in my_list:
 print(len(my_list)) # returns the number of values in a list
 print(2 in my_list) # returns whether true or false a value is in a list
 print(3 not in my_list) # returns whether true or false a value is not in a list
+my_list.append(11) # this adds a new value to the list
+my_list.remove(11) # this removes a value from the list
+my_list.insert(10, 11) # this checks for the index and puts in a value there. if there were other values after it, their index would change
+my_list.sort() # this arranges the values in alphabetical and numerical order. note, if you want to reverse in order, you need to sort first
+print(my_list.index(5)) # this returns the index that belongs to the value
+print(my_list.count(5)) # this counts the number of times a value has occured in a list
+my_list.clear() # this clears all the values in the list, making it empty
+del my_list # this deletes the container permanently
