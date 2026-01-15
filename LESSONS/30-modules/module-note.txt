@@ -1,0 +1,8 @@
+A module is a file containing codes that you can resuse in another code file. You must avoid hypens in naming your module file
+
+You can import:
+  variables
+  functions
+  operations, etc
+
+module-1.py is the parent file, while module-2.py is the child file
