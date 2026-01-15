@@ -9,4 +9,4 @@ print(nums) # prints in a list
 
 # Printing even numbers from 2 to 20
 even_nums = [i for i in range(1, 21) if i % 2 == 0]
-print(even_nums)
+print(even_nums) # prints in a list
