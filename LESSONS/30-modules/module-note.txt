@@ -6,3 +6,4 @@ You can import:
   operations, etc
 
 module-1.py is the parent file, while module-2.py is the child file
+If there is a variable or groups of variables that would be used in more than 2 files, it is best to create them in a seperate file to avoid conflicts
