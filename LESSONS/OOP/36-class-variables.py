@@ -8,7 +8,6 @@ class Student:
     self.name = name
     self.age = age
     Student.no_of_students += 1 # once you add a new student object, increase by one
-
     details = f'Name: {name} || Age: {age}'
     print(details)
 

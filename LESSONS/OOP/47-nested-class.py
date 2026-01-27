@@ -8,11 +8,6 @@ class Company:
       self.employee_name = employee_name
       self.employee_position = employee_position
 
-    # Method to display each employee object
-    def details(self, company_name):
-      self.company_name = company_name
-      return(f'This is {self.employee_name}, and he is the {self.employee_position} of {self.company_name}')
-
   # Constructor for the Company
   def __init__(self, company_name):
     self.company_name = company_name
@@ -20,7 +15,7 @@ class Company:
 
   # Adding new sets of employees to the employee array
   def add_employee(self, employee_name, employee_position):
-    new_employee = self.Employee(employee_name, employee_position) # using this constructor to get Object arguments
+    new_employee = self.Employee(employee_name, employee_position) # composition (The Company owns the Employee)
     self.employees.append(new_employee) # add each object (name and position)
 
   # Looping through to get the each objects
@@ -47,11 +42,6 @@ company2.list_employee()
 
 print()
 
-# Object actions for the Employee class (We may have little or no need to create these objects though)
+# Object actions for the Employee class (We may have little or no need to create these objects though because there is a composition here)
 employee1 = company1.Employee('Saviour', 'CEO')
-print(employee1.details(company1.company_name))
-
-print()
-
 employee2 = company2.Employee('Idem', 'CEO')
-print(employee2.details(company2.company_name))
