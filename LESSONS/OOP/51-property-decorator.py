@@ -1,6 +1,6 @@
 '''This is a decorator that is used to define a method as a property (attribute). It helps us add additional logic but using getters when reading, setters when writing, and deleter methods when deleting attributes
 
-In a lay man, these makes a method look like a property
+In a lay man, these makes a method look like a property or atribute
 
 Note: The constructor variables must be private'''
 

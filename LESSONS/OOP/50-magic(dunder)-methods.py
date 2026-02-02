@@ -12,7 +12,7 @@ class Book:
   def __str__(self):
     return f'{self.title} by {self.author}'
   
-  # Returns the boolean value of checking if each object's attributes are the same (you can make use of and and or incase you want to check many conditions)
+  # Returns the boolean value of checking if each object's attributes are the same 
   def __eq__(self, other):
     return self.title == other.title # boolean value if their titles are the same or not
   

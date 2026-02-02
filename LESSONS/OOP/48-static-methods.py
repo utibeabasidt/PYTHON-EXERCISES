@@ -1,4 +1,4 @@
-'''A static method any method that belongs to a class rather than each object from that class. They are used when we don't want to create an object before using the methods. They are mainly used for general purposes that do not need constructors data. It uses its own parameter, rather than the self parameter.
+'''A static method any method that belongs to a class rather than each object from that class. They are used when we don't want to create an object or a class variable before using the methods. They are mainly used for general purposes that do not need constructors data. It uses its own parameter, rather than the self parameter.
 
 Instance methods are methods that belong to each individual objects(Self) and they work in correspondence with that object. So, in order for you to use an instance method, you need to create an object'''
 
@@ -18,6 +18,6 @@ class Employee:
     print(employee_position in valid_position)
 
 employee1 = Employee('Utibe', 'CEO')
-print(employee1.get_info()) # running the instance method (because it needs an object before running)
+print(employee1.get_info()) # running the instance method (because it needs an object before running, and it is only accessed by an object)
 
-Employee.is_position_valid('Cook') # running the static method(without creating an object)
+Employee.is_position_valid('Cook') # running the static method (only accessed by a class alone)

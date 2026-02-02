@@ -1,4 +1,4 @@
-'''These are methods that allows operations related to the class itself (cls) instead of (self). it uses class varaibles (data)'''
+'''These are methods that allows operations related to the class itself (cls) instead of (self). it is only accessed by class varaibles (data), not class or object'''
 
 class Student():
   # class variable
